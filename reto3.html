@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Travelcosa</title>
     <link rel="stylesheet" href="reto3.css">
+    <script src="reto3.js"></script>
 </head>
 <body>
-
+    
     <h1 class="titulo1">Travelcosa</h1>
     <div class="div1">
             <div class="div2"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae deserunt dolores mollitia dicta recusandae quidem, asperiores quam quod nesciunt labore repellendus! Quos voluptas modi totam! Vero ut expedita minus tenetur? Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum soluta unde enim sint officiis rerum, ipsum repellat vitae! Perspiciatis expedita in nam aspernatur omnis enim corporis quidem aperiam maxime aliquam? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias, nam aut eaque cupiditate minima tempora consequuntur beatae quis, voluptatibus quas alias placeat earum quos corporis magni iusto maxime? Rerum, earum.</p></div>
@@ -25,17 +26,25 @@
     <form>
         
         <div class="div4">
-            Nombre -><input type="text">
-            Lugar de origen -><input type="text">
-            Lugar de destino-><input type="text">
-            Numero de personas-><input type="number">
-            Fecha<input type="date">
+            Nombre -><input type="text" id="nombre">
+            Lugar de origen -><input type="text" id="origen">
+            Lugar de destino-><input type="text" id="destino">
+            Numero de personas-><input type="number" id="personas">
+            Fecha<input type="date" id="date">
             <div class="div5">
-                <button>Enviar</button>
+                <button onclick="datos()">Enviar</button>
                 <button>Filtrar</button>
             </div>
         </div>
     </form>
+
+    <div class="tabla1">
+
+        <table class= "tabla2" id="tabla">
+
+        </table>
+        
+    </div>
     
 </body>
 </html>
