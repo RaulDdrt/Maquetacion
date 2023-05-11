@@ -91,3 +91,11 @@ form{
     margin: 10px;
 }
 
+.tabla1{
+
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+
+}
+
