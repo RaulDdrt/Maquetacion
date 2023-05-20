@@ -1,0 +1,90 @@
+.area1{
+
+    display: grid;
+    grid-template-areas: "ar1 ar1 ar2";
+    color: white;
+    text-align: center;
+    height: 100px;
+    
+    
+}
+
+.ar1{
+    
+    background-color: brown;
+    grid-area: ar1;
+    
+}
+
+.ar2{
+    
+    background-color: rgb(116, 22, 22);
+    grid-area: ar2;
+    
+
+}
+
+.area2{
+    
+    display: grid;
+    grid-template-areas: "ar3 ar6 ar6"
+                        "ar9 ar9 ar9";
+    height: 600px;
+    
+}
+
+.ar3{
+    
+    background-color: rgb(244, 126, 0);
+    color:orange;
+    grid-area: ar3;
+    text-align: center;
+    display: grid;
+    grid-template-areas: "ar4"
+                        "empty"
+                        "ar5";
+}
+
+.ar4{
+    grid-area: ar4;
+    background-color: white;
+    margin:8px;
+}
+
+.ar5{
+    grid-area: ar5;
+    background-color: white;
+    margin:8px;
+}
+
+.ar6{
+    background-color: rgb(255, 55, 0);
+    grid-area: ar6;
+    color:white;
+    text-align: center;
+    display: grid;
+    grid-template-areas: "ar7"
+                        "ar8";
+}
+
+.ar7{
+    border: 4px solid white;
+    margin:8px;
+    grid-area: ar7;
+
+}
+
+.ar8{
+    border: 4px solid white;
+    margin:8px;
+    grid-area: ar8;
+
+}
+
+.ar9{
+   height: 100px;
+    grid-area: ar9;
+    background-color:rgba(68, 9, 9, 0.904);
+    color: white;
+    text-align: center;
+}
